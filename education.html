@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sadia Rahman</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #4F053B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5D1049;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+ th, td {
+  border: 1px solid white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Sadia Rahman</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///E:/study/programming/sadia-rahman-html/education.html">Education</a></li>
+      <li><a href="file:///E:/study/programming/sadia-rahman-html/about_me.html">About Me</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <h1>Sadia Rahman</h1>
+  <fieldset>
+  <legend>Education:</legend>
+  
+<table >
+  <tr>
+    <th align="left">Degree</th>
+    <th align="left">Institude</th> 
+	<th align="left">Result</th>
+  </tr>
+  <tr>
+    <td>B.Sc in Computer Science And Engineering</td>
+    <td><a href="http://www.uiu.ac.bd/">United International University</a></td>
+	<td>First Semister</td>
+  </tr>
+   <tr>
+    <td>Higher Secondary School Certificate</td>
+    <td><a href="http://www.dhakacitycollege.edu.bd/">Dhaka City Collage</a></td>
+	<td>5.00</td>
+  </tr>
+   <tr>
+    <td>Secondary School Certificate</td>
+    <td><a href="https://www.facebook.com/mhsc.edu/">Monipur High School</a></td>
+	<td>5.00</td>
+  </tr>
+ 
+</table>
+ 
+	</fieldset>
+	 </br>
+    </br>  </br>
+	 <fieldset>
+		<legend>Motivation and Future Plan:</legend>
+		 <p>My name is Sadia Rahman.I have completed my SSC from monipur school and collage. After that I admitted into Dhaka City Collage and completed my HSC.
+	From my childhood I have always facination about computer thats why I choose CSE. My future plan is to become a software engineer.  </p>
+  </fieldset>
+  </article>
+</section>
+
+<footer>
+  <p>Copyright© 2019 Sadia Rahman</p>
+</footer>
+
+</body>
+</html>
